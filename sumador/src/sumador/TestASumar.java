@@ -10,5 +10,12 @@ class TestASumar {
 	void test() {
 		fail("Not yet implemented");
 	}
+	
+    @Test
+    public void testUnaCifra() {
+        ASumar sumi = new ASumar();
+        String resultado = sumi.mostrar("5");
+        assertEquals("5 = 5",resultado );
+    }
 
 }
