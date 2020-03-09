@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class JUnit {
+class TestASumar {
 
 	@Test
 	void test() {
